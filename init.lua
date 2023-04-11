@@ -1,0 +1,12 @@
+require("varenya.plugins-setup");
+require("varenya.core.options");
+require("varenya.core.keymaps");
+require("varenya.core.colorscheme");
+require("varenya.plugins.comment");
+require("varenya.plugins.lualine");
+require("varenya.plugins.autopair");
+require("varenya.plugins.treesitter")
+require("varenya.plugins.lsp");
+require("varenya.plugins.null-ls")
+require("varenya.plugins.prettier")
+require("varenya.plugins.telescope-config")
