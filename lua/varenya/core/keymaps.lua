@@ -25,9 +25,10 @@ keymap.set("n", "<leader><CR>", ":so ~/.config/nvim/init.lua<CR>"); -- open file
 
 -- QuickFix List Mappings
 
-vim.keymap.set("n","<leader>co","copen<CR>")
-vim.keymap.set("n","<leader>cn","cnext<CR>")
-vim.keymap.set("n","<leader>cp","cprevious<CR>")
+vim.keymap.set("n", "<leader>qo", ":copen<CR>")
+vim.keymap.set("n", "<leader>qn", ":cnext<CR>")
+vim.keymap.set("n", "<leader>qp", ":cprevious<CR>")
+vim.keymap.set("n", "<leader>qc", ":cclose<CR>")
 
 -- Lazy Git
 
