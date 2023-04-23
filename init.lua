@@ -7,6 +7,7 @@ require("varenya.plugins.lualine");
 require("varenya.plugins.autopair");
 require("varenya.plugins.treesitter")
 require("varenya.plugins.lsp");
-require("varenya.plugins.null-ls")
-require("varenya.plugins.prettier")
-require("varenya.plugins.telescope-config")
+require("varenya.plugins.null-ls");
+require("varenya.plugins.prettier");
+require("varenya.plugins.telescope-config");
+require("varenya.plugins.trouble-config");

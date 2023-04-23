@@ -15,6 +15,11 @@ telescope.setup {
 				["<leader>sq"] = require('telescope.actions').send_selected_to_qflist
 			}
 		}
+	},
+	pickers = {
+		find_files = {
+			hidden = true
+		}
 	}
 }
 

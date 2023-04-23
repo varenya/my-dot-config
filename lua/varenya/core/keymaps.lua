@@ -33,3 +33,7 @@ vim.keymap.set("n", "<leader>qc", ":cclose<CR>")
 -- Lazy Git
 
 vim.keymap.set("n", "<leader>gg", ":LazyGit<CR>")
+
+-- Prettier
+--
+vim.keymap.set("n", "<leader>f", ":Prettier<CR>")
